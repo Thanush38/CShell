@@ -91,7 +91,7 @@ char *lsh_read_line(void)
 
     if (getline(&line, &buffsize, stdin) == -1){
         if (feof(stdin)) {
-            exit(EXIT_SUCCESS);  // We recieved an EOF
+            exit(EXIT_SUCCESS);  // We are at End of File
         } else  {
             perror("readline");
             exit(EXIT_FAILURE);
@@ -173,7 +173,7 @@ void lsh_loop(void)
 
 int main(int argc, char **argv)
 {
-
+    //main loop and exit
     lsh_loop();
     return EXIT_SUCCESS;
 }
