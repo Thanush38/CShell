@@ -9,15 +9,9 @@ This project is a basic shell implementation written in C. It allows users to ex
 
 
 ## How To Run
-There are two ways to run the file:
-**Cloning the repository:**
-for this method you must have a gcc compiler installed.
-1. Clone the repository `git clone https://github.com/Thanush38/CShell.git`
-2. Change Directory: `cd CShell`
-3. Compile code: `gcc -o lsh main.c`
-4. Run the shell: `./lsh`
 
-**Running the existing executable:**
+
+**Running the executable:**
 1. Clone the repository `git clone https://github.com/Thanush38/CShell.git`
 2. Change Directory: `cd CShell`
 3. running the shell manually or with the terminal: `./lsh`
